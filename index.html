@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIPB – Venture Investment Partners Bangladesh Ltd.</title>
+    <meta name="description"
+        content="VIPB is the first and only private social venture capital investment company in Bangladesh with primary focus on impact at the bottom of the pyramid.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Snowfall Canvas -->
+    <canvas id="snowfall"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="logo-dark.png" alt="VIPB Logo" class="logo-img">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="#investment">Investment</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#contact" class="nav-cta">Get In Touch</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <canvas class="section-snow"></canvas>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-badge" data-animate="fade-up">Bangladesh's First Social Venture Capital</p>
+                <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+                    Investing in<br><span class="text-accent">Inclusive Growth</span>
+                </h1>
+                <p class="hero-subtitle" data-animate="fade-up" data-delay="200">
+                    The first and only private social venture capital investment company in Bangladesh, driving
+                    sustainable development at the bottom of the pyramid.
+                </p>
+                <div class="hero-actions" data-animate="fade-up" data-delay="300">
+                    <a href="#services" class="btn btn-primary">Explore Services</a>
+                    <a href="#about" class="btn btn-ghost">Learn More →</a>
+                </div>
+            </div>
+            <div class="hero-visual" data-animate="fade-up" data-delay="200">
+                <div class="hero-image-wrapper">
+                    <img src="hero-bg.png" alt="VIPB Investment" class="hero-image">
+                    <div class="hero-stats-float">
+                        <div class="stat-card">
+                            <span class="stat-number" data-count="100">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">SMEs Supported</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-count="15">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Years of Impact</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-count="50">0</span><span class="stat-suffix">M+</span>
+                            <span class="stat-label">BDT Invested</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Who We Are</span>
+                <h2 class="section-title">Pioneering Social<br><span class="text-accent">Impact Investment</span></h2>
+                <p class="section-desc">VIPB believes in inclusive growth. Our goal of value creation goes beyond
+                    achieving financial returns on investments.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card" data-animate="fade-up" data-delay="100">
+                    <div class="about-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                        </svg>
+                    </div>
+                    <h3>Impact Focus</h3>
+                    <p>Strong focus on social impact while making and managing investments, contributing materially to
+                        capacity building and sustainable development.</p>
+                </div>
+                <div class="about-card" data-animate="fade-up" data-delay="200">
+                    <div class="about-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                    </div>
+                    <h3>Inclusive Growth</h3>
+                    <p>Through ancillary investments and technical advisory, VIPB helps create capacity across value
+                        chains of investee SMEs and stakeholder levels.</p>
+                </div>
+                <div class="about-card" data-animate="fade-up" data-delay="300">
+                    <div class="about-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="2" y1="12" x2="22" y2="12" />
+                            <path
+                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                        </svg>
+                    </div>
+                    <h3>Global Standards</h3>
+                    <p>Leveraging proven investment track record, international experience in private equity fund
+                        management, and deep regulatory knowledge.</p>
+                </div>
+                <div class="about-card" data-animate="fade-up" data-delay="400">
+                    <div class="about-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                        </svg>
+                    </div>
+                    <h3>Asset Management</h3>
+                    <p>VIPB Asset Management Company, a wholly owned subsidiary, manages publicly listed and traded
+                        mutual funds.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Philosophy Image Section -->
+    <section class="section philosophy-section" id="philosophy">
+        <div class="container">
+            <div class="philosophy-wrapper" data-animate="fade-up">
+                <img src="investment-philosophy.png" alt="VIPB Investment Philosophy" class="philosophy-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="section mission" id="mission">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Our Purpose</span>
+                <h2 class="section-title">Mission &<br><span class="text-accent">Vision</span></h2>
+            </div>
+            <div class="mission-grid">
+                <div class="mission-card" data-animate="fade-left">
+                    <div class="mission-badge">Vision</div>
+                    <p>We aim to evolve as a leading impact fund manager with significant track record of generating
+                        attractive investment returns for the stakeholders by making and managing high impact inclusive
+                        investments following international best practices.</p>
+                </div>
+                <div class="mission-card" data-animate="fade-right">
+                    <div class="mission-badge mission-badge-alt">Mission</div>
+                    <ul class="mission-list">
+                        <li>
+                            <span class="mission-bullet"></span>
+                            To promote the growth and development of Small and Medium Enterprises (SME) in Bangladesh
+                            while generating healthy returns to the shareholders of VIPB.
+                        </li>
+                        <li>
+                            <span class="mission-bullet"></span>
+                            To provide an effective and profitable platform for Non-Resident Bangladeshis (NRB) to
+                            invest in the SME segment in Bangladesh.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">What We Offer</span>
+                <h2 class="section-title">Products &<br><span class="text-accent">Services</span></h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-animate="fade-up" data-delay="100">
+                    <div class="service-number">01</div>
+                    <h3>Equity Investments</h3>
+                    <p>VIPB takes part in the ownership of the enterprise, usually as a shareholder, sharing profit/loss
+                        and capital appreciation.</p>
+                    <ul class="service-criteria">
+                        <li>Strong operational track record with growth potential</li>
+                        <li>Commitment to transparency and compliance</li>
+                        <li>Promoter integrity and experience</li>
+                        <li>Willingness to accept advisory services</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="200">
+                    <div class="service-number">02</div>
+                    <h3>Quasi-Equity</h3>
+                    <p>An investment product featuring variable income sharing mechanism linked to operating performance
+                        parameters of a business.</p>
+                    <ul class="service-criteria">
+                        <li>Viable business track record</li>
+                        <li>Proper accounting and governance</li>
+                        <li>Transparency and integrity</li>
+                        <li>High growth potential</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="300">
+                    <div class="service-number">03</div>
+                    <h3>Technical Advisory</h3>
+                    <p>Business development and technical advisory services for VIPB clients depending on availability
+                        of TA funds.</p>
+                    <ul class="service-criteria">
+                        <li>Developing MIS and reports</li>
+                        <li>Fund raising</li>
+                        <li>Market linkage</li>
+                        <li>Process improvement</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="400">
+                    <div class="service-number">04</div>
+                    <h3>Fund Management</h3>
+                    <p>Investment management services for private equity and Venture Capital funds with total
+                        segregation and best practices.</p>
+                    <ul class="service-criteria">
+                        <li>International best practices</li>
+                        <li>Financial target return model</li>
+                        <li>Investment committee governance</li>
+                        <li>Sustainable social impact focus</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section class="section leadership" id="leadership">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Our Team</span>
+                <h2 class="section-title">Board of<br><span class="text-accent">Directors</span></h2>
+                <p class="section-desc">Independent professionals providing a unique global perspective, strong regional
+                    knowledge and access to a wealth of relationships.</p>
+            </div>
+
+            <!-- CEO Spotlight -->
+            <div class="ceo-spotlight" data-animate="fade-up" data-delay="100">
+                <img src="leadership-ceo.png" alt="VIPB Leadership - CEO Shahidul Islam" class="ceo-image">
+            </div>
+
+            <div class="leadership-grid">
+                <div class="leader-card" data-animate="fade-up" data-delay="100">
+                    <div class="leader-avatar"><span>GS</span></div>
+                    <h3>Mr. Golam Sarwar</h3>
+                    <span class="leader-role">Chairman</span>
+                </div>
+                <div class="leader-card" data-animate="fade-up" data-delay="200">
+                    <div class="leader-avatar"><span>RA</span></div>
+                    <h3>Brig Gen (Retd.) Rafiuddin Ahmed</h3>
+                    <span class="leader-role">Vice-Chairman</span>
+                </div>
+                <div class="leader-card" data-animate="fade-up" data-delay="300">
+                    <div class="leader-avatar"><span>UR</span></div>
+                    <h3>Mr. Upal Rahman</h3>
+                    <span class="leader-role">Director</span>
+                </div>
+                <div class="leader-card" data-animate="fade-up" data-delay="400">
+                    <div class="leader-avatar"><span>MR</span></div>
+                    <h3>Mr. Mashiur Rahman</h3>
+                    <span class="leader-role">Director</span>
+                </div>
+                <div class="leader-card" data-animate="fade-up" data-delay="500">
+                    <div class="leader-avatar"><span>MA</span></div>
+                    <h3>Mr. Md. Monirul Alam, FCS</h3>
+                    <span class="leader-role">Director</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq" id="faq">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Common Questions</span>
+                <h2 class="section-title">Frequently<br><span class="text-accent">Asked</span></h2>
+            </div>
+            <div class="faq-list" data-animate="fade-up" data-delay="100">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What are the sources of VIPB's investment funds?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Funds are mobilized through equity, long term loans and third party funds under VIPB's
+                            management.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What is equity investment?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>VIPB invests in common equity in private enterprises. Typically it aims for significant
+                            minority to majority positions with a defined investment horizon, expected financial returns
+                            and impact objectives.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What are convertible instruments?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Convertible instruments are those which can be converted optionally or mandatorily once the
+                            conversion mechanism triggers.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What is Quasi-Equity Investment?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Quasi equity is an investment product that features elements of a fixed income investment
+                            scheme as well as variable income sharing mechanism linked to operating performance
+                            parameters of business.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Will VIPB bear my losses too?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>For equity investments, VIPB shares pro rata share of profit or loss. For quasi-equity
+                            investments VIPB shares business risks within the framework of revenue/income sharing model
+                            of the product.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What is the investment horizon of VIPB?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>VIPB has a defined investment horizon of three to five years typically. It exits at the end
+                            of the horizon realizing a target return — VIPB does not hold investments indefinitely.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SPONSORS SECTION ========== -->
+    <section class="section sponsors-section" id="sponsors">
+        <canvas class="section-snow"></canvas>
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag sponsors-tag">Our Partners</span>
+                <h2 class="section-title sponsors-title">Sponsors &<br><span class="text-accent-light">Partners</span>
+                </h2>
+                <p class="section-desc sponsors-desc">Backed by leading financial institutions and NRB-owned enterprises
+                    committed to Bangladesh's growth.</p>
+            </div>
+
+            <!-- Bangladesh Sponsors -->
+            <h3 class="sponsors-group-title" data-animate="fade-up">Bangladesh Sponsors</h3>
+            <div class="sponsors-grid" data-animate="fade-up" data-delay="100">
+                <div class="sponsor-card">
+                    <div class="sponsor-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="3" />
+                            <path d="M3 9h18M9 3v18" />
+                        </svg>
+                    </div>
+                    <h4>The City Bank Limited</h4>
+                    <p>One of the oldest private commercial banks in Bangladesh, operating since 27th March 1983. With
+                        88 branches and assets valued at Taka 48.756 billion, the bank has grown from an initial capital
+                        of Taka 34 Million to over Taka 3,307 Million.</p>
+                    <a href="https://www.thecitybank.com" target="_blank" class="sponsor-link">www.thecitybank.com →</a>
+                </div>
+                <div class="sponsor-card">
+                    <div class="sponsor-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M8 12h8M12 8v8" />
+                        </svg>
+                    </div>
+                    <h4>NCC Bank Limited</h4>
+                    <p>Started operations in 1985 as a full-fledged investment house. Converted into a private
+                        commercial bank in 1993 with paid-up capital of TK 390 Million. Now operating 53 branches with
+                        assets valued at Taka 42.526 billion.</p>
+                    <a href="https://www.nccbank.com.bd" target="_blank" class="sponsor-link">www.nccbank.com.bd →</a>
+                </div>
+                <div class="sponsor-card">
+                    <div class="sponsor-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5" />
+                        </svg>
+                    </div>
+                    <h4>Southeast Bank Limited</h4>
+                    <p>Incorporated on 12 March 1995 as a public limited company. One of the fastest growing banks in
+                        the private sector with 41 branches. Assets valued at Taka 64.37 billion and Capital worth Taka
+                        6.4 billion.</p>
+                    <a href="https://www.sebankbd.com" target="_blank" class="sponsor-link">www.sebankbd.com →</a>
+                </div>
+                <div class="sponsor-card">
+                    <div class="sponsor-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                    </div>
+                    <h4>National Life Insurance Company Ltd</h4>
+                    <p>The first private sector life insurance company in Bangladesh, incorporated on 12 February 1985.
+                        Operates nearly 63 branches and 4 area offices across the country.</p>
+                </div>
+                <div class="sponsor-card">
+                    <div class="sponsor-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                        </svg>
+                    </div>
+                    <h4>TRIIMS Consultant Limited</h4>
+                    <p>A fee-based one-stop service provider offering comprehensive sustainable enterprise development
+                        business solutions to MSMEs and international development partners implementing enterprise
+                        development projects in Bangladesh.</p>
+                </div>
+            </div>
+
+            <!-- US-based NRB Sponsors -->
+            <h3 class="sponsors-group-title sponsors-group-title--nrb" data-animate="fade-up">US-based NRB Sponsors</h3>
+            <div class="sponsors-grid sponsors-grid--nrb" data-animate="fade-up" data-delay="100">
+                <div class="sponsor-card sponsor-card--nrb">
+                    <div class="sponsor-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="2" y1="12" x2="22" y2="12" />
+                            <path
+                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                        </svg>
+                    </div>
+                    <h4>US-Bangladesh Investment Group Inc., USA</h4>
+                    <p>A US-based NRB owned Private Equity (PE) investment firm providing a formal professional platform
+                        for NRBs to invest in Bangladesh.</p>
+                </div>
+                <div class="sponsor-card sponsor-card--nrb">
+                    <div class="sponsor-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                        </svg>
+                    </div>
+                    <h4>Terra Resources International Inc., USA</h4>
+                    <p>A US-based NRB owned management consulting company focused on enterprise development and
+                        investment & market promotion services. Principal promoter of VIPB.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== INVESTMENT POLICY SECTION (REVAMPED) ========== -->
+    <section class="section investment-section" id="investment">
+        <canvas class="section-snow"></canvas>
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Our Strategy</span>
+                <h2 class="section-title">The Engine of<br><span class="text-accent">Growth</span></h2>
+            </div>
+
+            <div class="investment-pillars">
+                <div class="pillar-card" data-animate="fade-up">
+                    <div class="pillar-content">
+                        <h3>01. Fueling</h3>
+                        <p>Providing <strong>Risk Capital</strong> to high-potential enterprises in emerging regions.
+                        </p>
+                    </div>
+                </div>
+                <div class="pillar-card" data-animate="fade-up" data-delay="100">
+                    <div class="pillar-content">
+                        <h3>02. Guiding</h3>
+                        <p>Active <strong>Technical Assistance</strong> for pre and post-investment scalability.</p>
+                    </div>
+                </div>
+                <div class="pillar-card" data-animate="fade-up" data-delay="200">
+                    <div class="pillar-content">
+                        <h3>03. Scaling</h3>
+                        <p>Building <strong>Sustainable Models</strong> that create value for all stakeholders.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sector Hub -->
+            <div class="sector-hub">
+                <div class="hub-center" data-animate="zoom-in">
+                    <div class="hub-circle">
+                        <span>Sector<br>Focus</span>
+                    </div>
+                </div>
+                <div class="hub-items">
+                    <div class="hub-item" style="--angle: 0deg; --dist: 180px;">☀️ <span>Energy</span></div>
+                    <div class="hub-item" style="--angle: 40deg; --dist: 180px;">🌾 <span>Agro</span></div>
+                    <div class="hub-item" style="--angle: 80deg; --dist: 180px;">🏥 <span>Health</span></div>
+                    <div class="hub-item" style="--angle: 120deg; --dist: 180px;">🎓 <span>Edu</span></div>
+                    <div class="hub-item" style="--angle: 160deg; --dist: 180px;">🍽️ <span>Food</span></div>
+                    <div class="hub-item" style="--angle: 200deg; --dist: 180px;">💻 <span>ICT</span></div>
+                    <div class="hub-item" style="--angle: 240deg; --dist: 180px;">⚙️ <span>Eng</span></div>
+                    <div class="hub-item" style="--angle: 280deg; --dist: 180px;">🧵 <span>Handicraft</span></div>
+                    <div class="hub-item" style="--angle: 320deg; --dist: 180px;">💧 <span>Water</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SOCIAL IMPACT SECTION (REVAMPED) ========== -->
+    <section class="section impact-section" id="impact">
+        <canvas class="section-snow"></canvas>
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag impact-tag">Purpose Driven</span>
+                <h2 class="section-title">The Ripple<br><span class="text-accent">Effect</span></h2>
+            </div>
+
+            <!-- Impact Tiles -->
+            <div class="impact-tiles">
+                <div class="impact-tile" data-animate="fade-up" style="--percent: 85%;">
+                    <div class="tile-icon-box">💼</div>
+                    <div class="tile-content">
+                        <h3>Economic Inclusion</h3>
+                        <p>Providing formal bridge capital to high-potential enterprises in ignored regions.</p>
+                    </div>
+                    <div class="tile-progress">
+                        <div class="progress-fill"></div>
+                    </div>
+                </div>
+                <div class="impact-tile" data-animate="fade-up" data-delay="100" style="--percent: 72%;">
+                    <div class="tile-icon-box">🥗</div>
+                    <div class="tile-content">
+                        <h3>Well-being</h3>
+                        <p>Measurably improving household nutrition and basic utility access through SME growth.</p>
+                    </div>
+                    <div class="tile-progress">
+                        <div class="progress-fill"></div>
+                    </div>
+                </div>
+                <div class="impact-tile" data-animate="fade-up" data-delay="200" style="--percent: 94%;">
+                    <div class="tile-icon-box">💹</div>
+                    <div class="tile-content">
+                        <h3>Market Linkage</h3>
+                        <p>Placing local products into formal value chains for sustained community circulation.</p>
+                    </div>
+                    <div class="tile-progress">
+                        <div class="progress-fill"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Impact Panel -->
+            <div class="featured-impact" data-animate="fade-up">
+                <div class="featured-text">
+                    <h3>Purposeful<br>Growth</h3>
+                    <p>We target the western, northern and southern parts of Bangladesh, where SME potential creates the
+                        highest social leverage.</p>
+                </div>
+                <div class="impact-stats">
+                    <div class="impact-stat-item">
+                        <span class="stat-val">Direct</span>
+                        <span class="stat-label">Job Creation</span>
+                    </div>
+                    <div class="impact-stat-item">
+                        <span class="stat-val">Pre/Post</span>
+                        <span class="stat-label">Tech Assistance</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-showcase" data-animate="fade-up">
+                <h3>Our Investee Network</h3>
+                <div class="footprint-grid">
+                    <div class="footprint-pill">
+                        <span class="pill-title">Saker Ali</span>
+                        <span class="pill-detail">M/s. Saker Ali Motshokhamar</span>
+                    </div>
+                    <div class="footprint-pill">
+                        <span class="pill-title">Devnet</span>
+                        <span class="pill-detail">Devnet Limited</span>
+                    </div>
+                    <div class="footprint-pill">
+                        <span class="pill-title">Cosmic Chemical</span>
+                        <span class="pill-detail">Cosmic Chemical Industries Ltd.</span>
+                    </div>
+                    <div class="footprint-pill">
+                        <span class="pill-title">Zanala</span>
+                        <span class="pill-detail">Zanala Bangladesh Ltd.</span>
+                    </div>
+                    <div class="footprint-pill">
+                        <span class="pill-title">M/A Poultry</span>
+                        <span class="pill-detail">M/A Poultry Firm</span>
+                    </div>
+                    <div class="footprint-pill">
+                        <span class="pill-title">Sohel Auto</span>
+                        <span class="pill-detail">M/s Sohel Auto</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Contact<br><span class="text-accent">Us</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-animate="fade-up" data-delay="100">
+                    <h3>Corporate / Head Office</h3>
+                    <div class="contact-detail">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                        <div>
+                            <p>Suite 11(H), Police Plaza Concord, Tower 1</p>
+                            <p>Plot 2, Floor 11, Road 144, Gulshan 1</p>
+                            <p>Dhaka-1212, Bangladesh</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                        <div>
+                            <p>+880 550 451 93 / 94 / 95</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                        <div>
+                            <p><a href="mailto:info@vipblimited.com">info@vipblimited.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map" data-animate="fade-up" data-delay="200">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.107077659553!2d90.41434197594589!3d23.779183488219965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7a00f130f19%3A0x6336e4f208107ef4!2sPolice%20Plaza%20Concord%20Shopping%20Mall!5e0!3m2!1sen!2sbd!4v1708892254345!5m2!1sen!2sbd"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        title="VIPB Office Location"></iframe>
+                    <div class="map-coords">
+                        GPS: 23.7792° N, 90.4158° E
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="logo-dark.png" alt="VIPB Logo" class="footer-logo">
+                    <p>Venture Investment Partners Bangladesh Ltd.</p>
+                    <p class="footer-tagline">Investing in Inclusive Growth</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#mission">Mission & Vision</a></li>
+                        <li><a href="#leadership">Leadership</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Equity Investments</a></li>
+                        <li><a href="#services">Quasi-Equity</a></li>
+                        <li><a href="#services">Technical Advisory</a></li>
+                        <li><a href="#services">Fund Management</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:info@vipblimited.com">info@vipblimited.com</a></li>
+                        <li><a href="#contact">Head Office</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Venture Investment Partners Bangladesh Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
